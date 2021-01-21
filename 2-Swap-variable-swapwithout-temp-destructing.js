@@ -1,14 +1,14 @@
 // swap with temp variable
-var a = 7;
-var b = 5;
+var business = 7;
+var minister = 5;
 
-console.log('before swap a =', a, 'b =', b);
+console.log('before swap a =', business, 'b =', minister);
 
 //swap
-c = a;
-a = b;
-b = c
-console.log('after swap a =', a, 'b =', b);
+c = business;
+business = minister;
+minister = c
+console.log('after swap a =', business, 'b =', minister);
 
 // now without temp variable
 
